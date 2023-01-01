@@ -122,6 +122,14 @@ prometheus = ["prometheus-client (>=0.5,<0.15)"]
 toml = ["toml (<2.0.0)"]
 
 [[package]]
+name = "mojimoji"
+version = "0.0.12"
+description = "A fast converter between Japanese hankaku and zenkaku characters"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.24.1"
 description = "Fundamental package for array computing in Python"
@@ -372,7 +380,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "10b5ada366a57cc98ad7210c0fc6dd362ddf1e8b77862a956cc248ce25480466"
+content-hash = "a7472ba5efc00f4cf9fef7f79981beab65892863e60b28d6aa73d26d6f8727e5"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -388,6 +396,7 @@ huggingface-hub = []
 idna = []
 lockfile = []
 luigi = []
+mojimoji = []
 numpy = []
 packaging = []
 python-daemon = []

@@ -24,10 +24,10 @@ rinnga/japanese-gpt2-mediumとなろう小説を使った文書生成のサン�
 
 - 学習
   ```
-  $poetry run
+  $poetry run python -m trainer --config params.cfg
   ```
 
-- 推論
+- 推論(T.B.D)
   ```
   ```
 
